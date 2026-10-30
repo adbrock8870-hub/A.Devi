@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Little Birthday Surprise</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="page page-home">
+  <main class="card hero">
+    <p class="eyebrow">A little moment, made just for you</p>
+    <div class="ornament">✦ ♡ ✦</div>
+    <h1>Happy Birthday,
+       <span>Devi</span></h1>
+    <p class="lead">A small surprise for you eaa Thanga Ponnu.</p>
+    <div class="photo-frame">
+      <img src="thango.jpg" alt="Our favourite memory" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+      <span class="photo-placeholder">Add your favourite photo<br><small>Replace assets/cover.jpg</small></span>
+    </div>
+    <a class="button" href="letter.html"> <span>Trust me ♡</span></a>
+    <p class="tiny">just mela paru</p>
+  </main>
+  <button class="music-toggle" data-music-toggle aria-label="Play or pause background music">♫ Music</button>
+  <audio id="bgMusic" loop preload="none"><source src="assets/birthday.mp3" type="audio/mpeg"></audio>
+</body>
+</html>
